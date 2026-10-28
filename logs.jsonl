@@ -1,0 +1,207 @@
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E1DE83", "step": "start", "user": "user1", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E1DE83", "step": "llm_call", "tokens_in": 64, "tokens_out": 484, "cost_eur": 0.007452, "duration_s": 0.142}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E1DE83", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E1DE83", "step": "llm_call", "tokens_in": 62, "tokens_out": 176, "cost_eur": 0.002826, "duration_s": 0.04}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E1DE83", "step": "end", "status": "Succès", "duration_s": 0.224, "cost_eur": 0.010278, "error": ""}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-603D62", "step": "start", "user": "user2", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-603D62", "step": "llm_call", "tokens_in": 64, "tokens_out": 599, "cost_eur": 0.009177, "duration_s": 0.081}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-603D62", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-603D62", "step": "llm_call", "tokens_in": 62, "tokens_out": 508, "cost_eur": 0.007806, "duration_s": 0.032}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-603D62", "step": "end", "status": "Succès", "duration_s": 0.146, "cost_eur": 0.016983, "error": ""}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-2F4D2F", "step": "start", "user": "user3", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-2F4D2F", "step": "llm_call", "tokens_in": 58, "tokens_out": 514, "cost_eur": 0.007884, "duration_s": 0.049}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-2F4D2F", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-2F4D2F", "step": "end", "status": "Échec", "duration_s": 0.065, "cost_eur": 0.007884, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E80DEE", "step": "start", "user": "user1", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E80DEE", "step": "llm_call", "tokens_in": 60, "tokens_out": 308, "cost_eur": 0.0048, "duration_s": 0.04}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E80DEE", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:33", "correlation_id": "REQ-E80DEE", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-E80DEE", "step": "llm_call", "tokens_in": 58, "tokens_out": 143, "cost_eur": 0.002319, "duration_s": 0.144}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-E80DEE", "step": "end", "status": "Succès", "duration_s": 0.494, "cost_eur": 0.007119, "error": ""}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "start", "user": "user2", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "llm_call", "tokens_in": 60, "tokens_out": 130, "cost_eur": 0.00213, "duration_s": 0.123}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "llm_call", "tokens_in": 58, "tokens_out": 216, "cost_eur": 0.003414, "duration_s": 0.025}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-F345DE", "step": "end", "status": "Succès", "duration_s": 0.163, "cost_eur": 0.005544, "error": ""}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-C5255F", "step": "start", "user": "user3", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-C5255F", "step": "llm_call", "tokens_in": 64, "tokens_out": 200, "cost_eur": 0.003192, "duration_s": 0.086}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-C5255F", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-C5255F", "step": "llm_call", "tokens_in": 62, "tokens_out": 265, "cost_eur": 0.004161, "duration_s": 0.077}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-C5255F", "step": "end", "status": "Succès", "duration_s": 0.181, "cost_eur": 0.007353, "error": ""}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-9733E4", "step": "start", "user": "user1", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-9733E4", "step": "llm_call", "tokens_in": 58, "tokens_out": 272, "cost_eur": 0.004254, "duration_s": 0.078}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-9733E4", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-9733E4", "step": "llm_call", "tokens_in": 56, "tokens_out": 144, "cost_eur": 0.002328, "duration_s": 0.075}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-9733E4", "step": "end", "status": "Succès", "duration_s": 0.166, "cost_eur": 0.006582, "error": ""}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "start", "user": "user2", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "llm_call", "tokens_in": 60, "tokens_out": 290, "cost_eur": 0.00453, "duration_s": 0.026}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "llm_call", "tokens_in": 58, "tokens_out": 401, "cost_eur": 0.006189, "duration_s": 0.075}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-44BE35", "step": "end", "status": "Succès", "duration_s": 0.113, "cost_eur": 0.010719, "error": ""}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-13EA00", "step": "start", "user": "user3", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-13EA00", "step": "llm_call", "tokens_in": 58, "tokens_out": 544, "cost_eur": 0.008334, "duration_s": 0.081}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-13EA00", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:34", "correlation_id": "REQ-13EA00", "step": "llm_call", "tokens_in": 56, "tokens_out": 264, "cost_eur": 0.004128, "duration_s": 0.048}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-13EA00", "step": "end", "status": "Succès", "duration_s": 0.15, "cost_eur": 0.012462, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "start", "user": "user1", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "llm_call", "tokens_in": 60, "tokens_out": 387, "cost_eur": 0.005985, "duration_s": 0.032}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "llm_call", "tokens_in": 58, "tokens_out": 539, "cost_eur": 0.008259, "duration_s": 0.109}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3B96D4", "step": "end", "status": "Succès", "duration_s": 0.173, "cost_eur": 0.014244, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-DD7C5D", "step": "start", "user": "user2", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-DD7C5D", "step": "llm_call", "tokens_in": 64, "tokens_out": 154, "cost_eur": 0.002502, "duration_s": 0.081}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-DD7C5D", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-DD7C5D", "step": "end", "status": "Échec", "duration_s": 0.092, "cost_eur": 0.002502, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-C6AC76", "step": "start", "user": "user3", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-C6AC76", "step": "llm_call", "tokens_in": 58, "tokens_out": 430, "cost_eur": 0.006624, "duration_s": 0.046}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-C6AC76", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-C6AC76", "step": "llm_call", "tokens_in": 56, "tokens_out": 120, "cost_eur": 0.001968, "duration_s": 0.07}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-C6AC76", "step": "end", "status": "Succès", "duration_s": 0.125, "cost_eur": 0.008592, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3ECEE5", "step": "start", "user": "user1", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3ECEE5", "step": "llm_call", "tokens_in": 58, "tokens_out": 401, "cost_eur": 0.006189, "duration_s": 0.097}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3ECEE5", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3ECEE5", "step": "llm_call", "tokens_in": 56, "tokens_out": 588, "cost_eur": 0.008988, "duration_s": 0.056}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-3ECEE5", "step": "end", "status": "Succès", "duration_s": 0.161, "cost_eur": 0.015177, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "start", "user": "user2", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "llm_call", "tokens_in": 60, "tokens_out": 150, "cost_eur": 0.00243, "duration_s": 0.1}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "llm_call", "tokens_in": 58, "tokens_out": 565, "cost_eur": 0.008649, "duration_s": 0.115}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-CB36FF", "step": "end", "status": "Succès", "duration_s": 0.221, "cost_eur": 0.011079, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-0703A7", "step": "start", "user": "user3", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-0703A7", "step": "llm_call", "tokens_in": 58, "tokens_out": 397, "cost_eur": 0.006129, "duration_s": 0.026}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-0703A7", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-0703A7", "step": "llm_call", "tokens_in": 56, "tokens_out": 536, "cost_eur": 0.008208, "duration_s": 0.12}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-0703A7", "step": "end", "status": "Succès", "duration_s": 0.15, "cost_eur": 0.014337, "error": ""}
+{"ts": "2026-10-28T13:03:35", "correlation_id": "REQ-4BC2D8", "step": "start", "user": "user1", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-4BC2D8", "step": "llm_call", "tokens_in": 64, "tokens_out": 435, "cost_eur": 0.006717, "duration_s": 0.092}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-4BC2D8", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-4BC2D8", "step": "end", "status": "Échec", "duration_s": 0.107, "cost_eur": 0.006717, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-3346A9", "step": "start", "user": "user2", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-3346A9", "step": "llm_call", "tokens_in": 58, "tokens_out": 199, "cost_eur": 0.003159, "duration_s": 0.056}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-3346A9", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-3346A9", "step": "llm_call", "tokens_in": 56, "tokens_out": 374, "cost_eur": 0.005778, "duration_s": 0.045}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-3346A9", "step": "end", "status": "Succès", "duration_s": 0.12, "cost_eur": 0.008937, "error": ""}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "start", "user": "user3", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "llm_call", "tokens_in": 60, "tokens_out": 487, "cost_eur": 0.007485, "duration_s": 0.095}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "llm_call", "tokens_in": 58, "tokens_out": 162, "cost_eur": 0.002604, "duration_s": 0.108}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-12B1B6", "step": "end", "status": "Succès", "duration_s": 0.22, "cost_eur": 0.010089, "error": ""}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "start", "user": "user1", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "llm_call", "tokens_in": 60, "tokens_out": 364, "cost_eur": 0.00564, "duration_s": 0.065}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "llm_call", "tokens_in": 58, "tokens_out": 365, "cost_eur": 0.005649, "duration_s": 0.103}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-700311", "step": "end", "status": "Succès", "duration_s": 0.184, "cost_eur": 0.011289, "error": ""}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-CB9B21", "step": "start", "user": "user2", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-CB9B21", "step": "llm_call", "tokens_in": 58, "tokens_out": 469, "cost_eur": 0.007209, "duration_s": 0.12}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-CB9B21", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-CB9B21", "step": "llm_call", "tokens_in": 56, "tokens_out": 260, "cost_eur": 0.004068, "duration_s": 0.037}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-CB9B21", "step": "end", "status": "Succès", "duration_s": 0.171, "cost_eur": 0.011277, "error": ""}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-DBFB89", "step": "start", "user": "user3", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-DBFB89", "step": "llm_call", "tokens_in": 60, "tokens_out": 318, "cost_eur": 0.00495, "duration_s": 0.044}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-DBFB89", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-DBFB89", "step": "end", "status": "Échec", "duration_s": 0.058, "cost_eur": 0.00495, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-C823AA", "step": "start", "user": "user1", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-C823AA", "step": "llm_call", "tokens_in": 60, "tokens_out": 368, "cost_eur": 0.0057, "duration_s": 0.041}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-C823AA", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-C823AA", "step": "end", "status": "Échec", "duration_s": 0.053, "cost_eur": 0.0057, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-9479F4", "step": "start", "user": "user2", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-9479F4", "step": "llm_call", "tokens_in": 58, "tokens_out": 406, "cost_eur": 0.006264, "duration_s": 0.078}
+{"ts": "2026-10-28T13:03:36", "correlation_id": "REQ-9479F4", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-9479F4", "step": "llm_call", "tokens_in": 56, "tokens_out": 135, "cost_eur": 0.002193, "duration_s": 0.09}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-9479F4", "step": "end", "status": "Succès", "duration_s": 0.179, "cost_eur": 0.008457, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EDDF98", "step": "start", "user": "user3", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EDDF98", "step": "llm_call", "tokens_in": 58, "tokens_out": 481, "cost_eur": 0.007389, "duration_s": 0.11}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EDDF98", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EDDF98", "step": "llm_call", "tokens_in": 56, "tokens_out": 573, "cost_eur": 0.008763, "duration_s": 0.06}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EDDF98", "step": "end", "status": "Succès", "duration_s": 0.18, "cost_eur": 0.016152, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-B02F12", "step": "start", "user": "user1", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-B02F12", "step": "llm_call", "tokens_in": 58, "tokens_out": 148, "cost_eur": 0.002394, "duration_s": 0.027}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-B02F12", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-B02F12", "step": "llm_call", "tokens_in": 56, "tokens_out": 192, "cost_eur": 0.003048, "duration_s": 0.064}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-B02F12", "step": "end", "status": "Succès", "duration_s": 0.098, "cost_eur": 0.005442, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-6C9E9B", "step": "start", "user": "user2", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-6C9E9B", "step": "llm_call", "tokens_in": 64, "tokens_out": 184, "cost_eur": 0.002952, "duration_s": 0.08}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-6C9E9B", "step": "tool_call", "tool": "search_course", "status": "ECHEC", "duration_s": 0.0, "result": "course_db timeout"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-6C9E9B", "step": "end", "status": "Échec", "duration_s": 0.085, "cost_eur": 0.002952, "error": "course_db timeout"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "start", "user": "user3", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "llm_call", "tokens_in": 60, "tokens_out": 452, "cost_eur": 0.00696, "duration_s": 0.074}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "llm_call", "tokens_in": 58, "tokens_out": 292, "cost_eur": 0.004554, "duration_s": 0.027}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-1AD81E", "step": "end", "status": "Succès", "duration_s": 0.107, "cost_eur": 0.011514, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "start", "user": "user1", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "llm_call", "tokens_in": 60, "tokens_out": 338, "cost_eur": 0.00525, "duration_s": 0.058}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "llm_call", "tokens_in": 58, "tokens_out": 565, "cost_eur": 0.008649, "duration_s": 0.08}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-804F4B", "step": "end", "status": "Succès", "duration_s": 0.147, "cost_eur": 0.013899, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-D397CE", "step": "start", "user": "user2", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-D397CE", "step": "llm_call", "tokens_in": 58, "tokens_out": 579, "cost_eur": 0.008859, "duration_s": 0.036}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-D397CE", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-D397CE", "step": "llm_call", "tokens_in": 56, "tokens_out": 575, "cost_eur": 0.008793, "duration_s": 0.067}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-D397CE", "step": "end", "status": "Succès", "duration_s": 0.107, "cost_eur": 0.017652, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EB857A", "step": "start", "user": "user3", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EB857A", "step": "llm_call", "tokens_in": 64, "tokens_out": 184, "cost_eur": 0.002952, "duration_s": 0.029}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EB857A", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EB857A", "step": "llm_call", "tokens_in": 62, "tokens_out": 570, "cost_eur": 0.008736, "duration_s": 0.098}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-EB857A", "step": "end", "status": "Succès", "duration_s": 0.133, "cost_eur": 0.011688, "error": ""}
+{"ts": "2026-10-28T13:03:37", "correlation_id": "REQ-628DC3", "step": "start", "user": "user1", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-628DC3", "step": "llm_call", "tokens_in": 60, "tokens_out": 290, "cost_eur": 0.00453, "duration_s": 0.072}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-628DC3", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-628DC3", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-628DC3", "step": "llm_call", "tokens_in": 58, "tokens_out": 230, "cost_eur": 0.003624, "duration_s": 0.074}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-628DC3", "step": "end", "status": "Succès", "duration_s": 0.153, "cost_eur": 0.008154, "error": ""}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "start", "user": "user2", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "llm_call", "tokens_in": 60, "tokens_out": 385, "cost_eur": 0.005955, "duration_s": 0.116}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "llm_call", "tokens_in": 58, "tokens_out": 347, "cost_eur": 0.005379, "duration_s": 0.114}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-C8DB2B", "step": "end", "status": "Succès", "duration_s": 0.24, "cost_eur": 0.011334, "error": ""}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "start", "user": "user3", "query": "Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "llm_call", "tokens_in": 60, "tokens_out": 251, "cost_eur": 0.003945, "duration_s": 0.057}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz algèbre, password=[REDACTED]"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "llm_call", "tokens_in": 58, "tokens_out": 594, "cost_eur": 0.009084, "duration_s": 0.044}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-B31DF0", "step": "end", "status": "Succès", "duration_s": 0.109, "cost_eur": 0.013029, "error": ""}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-09AD47", "step": "start", "user": "user1", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-09AD47", "step": "llm_call", "tokens_in": 64, "tokens_out": 279, "cost_eur": 0.004377, "duration_s": 0.084}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-09AD47", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-09AD47", "step": "llm_call", "tokens_in": 62, "tokens_out": 312, "cost_eur": 0.004866, "duration_s": 0.103}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-09AD47", "step": "end", "status": "Succès", "duration_s": 0.194, "cost_eur": 0.009243, "error": ""}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "start", "user": "user2", "query": "Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "llm_call", "tokens_in": 60, "tokens_out": 444, "cost_eur": 0.00684, "duration_s": 0.076}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "tool_call", "tool": "make_quiz", "status": "OK", "duration_s": 0.0, "result": "Quiz 5 QCM sur Quiz sur la photosynthèse"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "llm_call", "tokens_in": 58, "tokens_out": 366, "cost_eur": 0.005664, "duration_s": 0.119}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-9E4FD9", "step": "end", "status": "Succès", "duration_s": 0.221, "cost_eur": 0.012504, "error": ""}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-E88642", "step": "start", "user": "user3", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-E88642", "step": "llm_call", "tokens_in": 58, "tokens_out": 432, "cost_eur": 0.006654, "duration_s": 0.046}
+{"ts": "2026-10-28T13:03:38", "correlation_id": "REQ-E88642", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-E88642", "step": "llm_call", "tokens_in": 56, "tokens_out": 437, "cost_eur": 0.006723, "duration_s": 0.114}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-E88642", "step": "end", "status": "Succès", "duration_s": 0.17, "cost_eur": 0.013377, "error": ""}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-2531D3", "step": "start", "user": "user1", "query": "Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-2531D3", "step": "llm_call", "tokens_in": 64, "tokens_out": 184, "cost_eur": 0.002952, "duration_s": 0.028}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-2531D3", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Résume le chapitre 3 (mail: [EMAIL])"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-2531D3", "step": "llm_call", "tokens_in": 62, "tokens_out": 289, "cost_eur": 0.004521, "duration_s": 0.04}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-2531D3", "step": "end", "status": "Succès", "duration_s": 0.077, "cost_eur": 0.007473, "error": ""}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-C4D5CA", "step": "start", "user": "user2", "query": "Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-C4D5CA", "step": "llm_call", "tokens_in": 58, "tokens_out": 81, "cost_eur": 0.001389, "duration_s": 0.083}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-C4D5CA", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Parcours d'apprentissage Python"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-C4D5CA", "step": "llm_call", "tokens_in": 56, "tokens_out": 166, "cost_eur": 0.002658, "duration_s": 0.086}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-C4D5CA", "step": "end", "status": "Succès", "duration_s": 0.181, "cost_eur": 0.004047, "error": ""}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-F2C783", "step": "start", "user": "user3", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-F2C783", "step": "llm_call", "tokens_in": 58, "tokens_out": 284, "cost_eur": 0.004434, "duration_s": 0.111}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-F2C783", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-F2C783", "step": "llm_call", "tokens_in": 56, "tokens_out": 420, "cost_eur": 0.006468, "duration_s": 0.041}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-F2C783", "step": "end", "status": "Succès", "duration_s": 0.168, "cost_eur": 0.010902, "error": ""}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-CA8B03", "step": "start", "user": "user1", "query": "Explique les fractions"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-CA8B03", "step": "llm_call", "tokens_in": 58, "tokens_out": 485, "cost_eur": 0.007449, "duration_s": 0.1}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-CA8B03", "step": "tool_call", "tool": "search_course", "status": "OK", "duration_s": 0.0, "result": "Fiche cours: Explique les fractions"}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-CA8B03", "step": "llm_call", "tokens_in": 56, "tokens_out": 166, "cost_eur": 0.002658, "duration_s": 0.095}
+{"ts": "2026-10-28T13:03:39", "correlation_id": "REQ-CA8B03", "step": "end", "status": "Succès", "duration_s": 0.202, "cost_eur": 0.010107, "error": ""}
